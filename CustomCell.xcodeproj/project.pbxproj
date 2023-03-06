@@ -9,21 +9,65 @@
 /* Begin PBXBuildFile section */
 		FAC164FF29B5E79A00F8DB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC164FE29B5E79A00F8DB67 /* AppDelegate.swift */; };
 		FAC1650129B5E79A00F8DB67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1650029B5E79A00F8DB67 /* SceneDelegate.swift */; };
-		FAC1650329B5E79A00F8DB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1650229B5E79A00F8DB67 /* ViewController.swift */; };
 		FAC1650629B5E79A00F8DB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC1650429B5E79A00F8DB67 /* Main.storyboard */; };
 		FAC1650829B5E79B00F8DB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1650729B5E79B00F8DB67 /* Assets.xcassets */; };
 		FAC1650B29B5E79B00F8DB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC1650929B5E79B00F8DB67 /* LaunchScreen.storyboard */; };
+		FAC1652629B5E81600F8DB67 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651629B5E81600F8DB67 /* egg_benedict.jpg */; };
+		FAC1652729B5E81600F8DB67 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651729B5E81600F8DB67 /* thai_shrimp_cake.jpg */; };
+		FAC1652829B5E81600F8DB67 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651829B5E81600F8DB67 /* vegetable_curry.jpg */; };
+		FAC1652929B5E81600F8DB67 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651929B5E81600F8DB67 /* green_tea.jpg */; };
+		FAC1652A29B5E81600F8DB67 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651A29B5E81600F8DB67 /* white_chocolate_donut.jpg */; };
+		FAC1652B29B5E81600F8DB67 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651B29B5E81600F8DB67 /* ham_and_egg_sandwich.jpg */; };
+		FAC1652C29B5E81600F8DB67 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651C29B5E81600F8DB67 /* creme_brelee.jpg */; };
+		FAC1652D29B5E81600F8DB67 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651D29B5E81600F8DB67 /* hamburger.jpg */; };
+		FAC1652E29B5E81600F8DB67 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651E29B5E81600F8DB67 /* angry_birds_cake.jpg */; };
+		FAC1652F29B5E81600F8DB67 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1651F29B5E81600F8DB67 /* full_breakfast.jpg */; };
+		FAC1653029B5E81600F8DB67 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652029B5E81600F8DB67 /* mushroom_risotto.jpg */; };
+		FAC1653129B5E81600F8DB67 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652129B5E81600F8DB67 /* starbucks_coffee.jpg */; };
+		FAC1653229B5E81600F8DB67 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652229B5E81600F8DB67 /* japanese_noodle_with_pork.jpg */; };
+		FAC1653329B5E81600F8DB67 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652329B5E81600F8DB67 /* instant_noodle_with_egg.jpg */; };
+		FAC1653429B5E81600F8DB67 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652429B5E81600F8DB67 /* ham_and_cheese_panini.jpg */; };
+		FAC1653529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAC1652529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg */; };
+		FAC1653729B5E82700F8DB67 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653629B5E82700F8DB67 /* Recipe.swift */; };
+		FAC1653929B5EAC500F8DB67 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653829B5EAC500F8DB67 /* MainViewController.swift */; };
+		FAC1653B29B5EAE600F8DB67 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653A29B5EAE600F8DB67 /* TableViewController.swift */; };
+		FAC1653D29B5EB2200F8DB67 /* ColectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653C29B5EB2200F8DB67 /* ColectionViewController.swift */; };
+		FAC1654129B5EBDB00F8DB67 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */; };
+		FAC1654229B5EBDB00F8DB67 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */; };
+		FAC1654429B5EEED00F8DB67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1654329B5EEED00F8DB67 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAC164FB29B5E79A00F8DB67 /* CustomCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC164FE29B5E79A00F8DB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC1650029B5E79A00F8DB67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC1650229B5E79A00F8DB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC1650529B5E79A00F8DB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAC1650729B5E79B00F8DB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC1650A29B5E79B00F8DB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC1650C29B5E79B00F8DB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC1651629B5E81600F8DB67 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		FAC1651729B5E81600F8DB67 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		FAC1651829B5E81600F8DB67 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		FAC1651929B5E81600F8DB67 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		FAC1651A29B5E81600F8DB67 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		FAC1651B29B5E81600F8DB67 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		FAC1651C29B5E81600F8DB67 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		FAC1651D29B5E81600F8DB67 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		FAC1651E29B5E81600F8DB67 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		FAC1651F29B5E81600F8DB67 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		FAC1652029B5E81600F8DB67 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		FAC1652129B5E81600F8DB67 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		FAC1652229B5E81600F8DB67 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		FAC1652329B5E81600F8DB67 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		FAC1652429B5E81600F8DB67 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		FAC1652529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		FAC1653629B5E82700F8DB67 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		FAC1653829B5EAC500F8DB67 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAC1653A29B5EAE600F8DB67 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FAC1653C29B5EB2200F8DB67 /* ColectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColectionViewController.swift; sourceTree = "<group>"; };
+		FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		FAC1654329B5EEED00F8DB67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +100,77 @@
 		FAC164FD29B5E79A00F8DB67 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1651529B5E81600F8DB67 /* Images */,
+				FAC1651429B5E7C900F8DB67 /* Utilis */,
+				FAC1651329B5E7BC00F8DB67 /* Model */,
+				FAC1651229B5E7B400F8DB67 /* View */,
 				FAC164FE29B5E79A00F8DB67 /* AppDelegate.swift */,
 				FAC1650029B5E79A00F8DB67 /* SceneDelegate.swift */,
-				FAC1650229B5E79A00F8DB67 /* ViewController.swift */,
 				FAC1650429B5E79A00F8DB67 /* Main.storyboard */,
 				FAC1650729B5E79B00F8DB67 /* Assets.xcassets */,
 				FAC1650929B5E79B00F8DB67 /* LaunchScreen.storyboard */,
 				FAC1650C29B5E79B00F8DB67 /* Info.plist */,
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FAC1651229B5E7B400F8DB67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1653E29B5EB4D00F8DB67 /* Cell View */,
+				FAC1653829B5EAC500F8DB67 /* MainViewController.swift */,
+				FAC1653A29B5EAE600F8DB67 /* TableViewController.swift */,
+				FAC1653C29B5EB2200F8DB67 /* ColectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC1651329B5E7BC00F8DB67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1653629B5E82700F8DB67 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC1651429B5E7C900F8DB67 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1654329B5EEED00F8DB67 /* Constants.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		FAC1651529B5E81600F8DB67 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1651629B5E81600F8DB67 /* egg_benedict.jpg */,
+				FAC1651729B5E81600F8DB67 /* thai_shrimp_cake.jpg */,
+				FAC1651829B5E81600F8DB67 /* vegetable_curry.jpg */,
+				FAC1651929B5E81600F8DB67 /* green_tea.jpg */,
+				FAC1651A29B5E81600F8DB67 /* white_chocolate_donut.jpg */,
+				FAC1651B29B5E81600F8DB67 /* ham_and_egg_sandwich.jpg */,
+				FAC1651C29B5E81600F8DB67 /* creme_brelee.jpg */,
+				FAC1651D29B5E81600F8DB67 /* hamburger.jpg */,
+				FAC1651E29B5E81600F8DB67 /* angry_birds_cake.jpg */,
+				FAC1651F29B5E81600F8DB67 /* full_breakfast.jpg */,
+				FAC1652029B5E81600F8DB67 /* mushroom_risotto.jpg */,
+				FAC1652129B5E81600F8DB67 /* starbucks_coffee.jpg */,
+				FAC1652229B5E81600F8DB67 /* japanese_noodle_with_pork.jpg */,
+				FAC1652329B5E81600F8DB67 /* instant_noodle_with_egg.jpg */,
+				FAC1652429B5E81600F8DB67 /* ham_and_cheese_panini.jpg */,
+				FAC1652529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FAC1653E29B5EB4D00F8DB67 /* Cell View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */,
+				FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */,
+			);
+			path = "Cell View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +231,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC1653129B5E81600F8DB67 /* starbucks_coffee.jpg in Resources */,
+				FAC1652929B5E81600F8DB67 /* green_tea.jpg in Resources */,
+				FAC1653329B5E81600F8DB67 /* instant_noodle_with_egg.jpg in Resources */,
+				FAC1652C29B5E81600F8DB67 /* creme_brelee.jpg in Resources */,
+				FAC1652E29B5E81600F8DB67 /* angry_birds_cake.jpg in Resources */,
 				FAC1650B29B5E79B00F8DB67 /* LaunchScreen.storyboard in Resources */,
+				FAC1653429B5E81600F8DB67 /* ham_and_cheese_panini.jpg in Resources */,
 				FAC1650829B5E79B00F8DB67 /* Assets.xcassets in Resources */,
+				FAC1652F29B5E81600F8DB67 /* full_breakfast.jpg in Resources */,
+				FAC1652D29B5E81600F8DB67 /* hamburger.jpg in Resources */,
+				FAC1652A29B5E81600F8DB67 /* white_chocolate_donut.jpg in Resources */,
+				FAC1653229B5E81600F8DB67 /* japanese_noodle_with_pork.jpg in Resources */,
+				FAC1652B29B5E81600F8DB67 /* ham_and_egg_sandwich.jpg in Resources */,
 				FAC1650629B5E79A00F8DB67 /* Main.storyboard in Resources */,
+				FAC1653029B5E81600F8DB67 /* mushroom_risotto.jpg in Resources */,
+				FAC1654229B5EBDB00F8DB67 /* DataTableViewCell.xib in Resources */,
+				FAC1652829B5E81600F8DB67 /* vegetable_curry.jpg in Resources */,
+				FAC1653529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg in Resources */,
+				FAC1652729B5E81600F8DB67 /* thai_shrimp_cake.jpg in Resources */,
+				FAC1652629B5E81600F8DB67 /* egg_benedict.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC1650329B5E79A00F8DB67 /* ViewController.swift in Sources */,
 				FAC164FF29B5E79A00F8DB67 /* AppDelegate.swift in Sources */,
 				FAC1650129B5E79A00F8DB67 /* SceneDelegate.swift in Sources */,
+				FAC1653729B5E82700F8DB67 /* Recipe.swift in Sources */,
+				FAC1653B29B5EAE600F8DB67 /* TableViewController.swift in Sources */,
+				FAC1653929B5EAC500F8DB67 /* MainViewController.swift in Sources */,
+				FAC1654129B5EBDB00F8DB67 /* DataTableViewCell.swift in Sources */,
+				FAC1653D29B5EB2200F8DB67 /* ColectionViewController.swift in Sources */,
+				FAC1654429B5EEED00F8DB67 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +423,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,8 +453,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
