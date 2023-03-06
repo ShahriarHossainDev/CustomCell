@@ -22,11 +22,11 @@ class DataCollectionViewCell: UICollectionViewCell {
         ConView.dropShadow()
     }
     
-// MARK: - Cell Configuration
+    // MARK: - Cell Configuration
     func configurateTheCell(_ recipe: Recipe) {
         nameLabel.text = recipe.name
         picImageView.image = UIImage(named: recipe.thumbnails)
     }
     
-
+    
 }

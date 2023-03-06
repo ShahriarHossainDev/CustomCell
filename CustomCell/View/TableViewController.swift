@@ -11,7 +11,7 @@ class TableViewController: UIViewController {
     
     private var recipes = Recipe.createRecipes()
     private let cellIdentifier: String = "tableCell"
-
+    
     @IBOutlet weak var dataTableView: UITableView!
     
     override func viewDidLoad() {
@@ -20,11 +20,11 @@ class TableViewController: UIViewController {
         dataTableView.delegate = self
         dataTableView.dataSource = self
         dataTableView.separatorStyle = .none
-
+        
         self.dataTableView.register(UINib(nibName: "DataTableViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifier)
         // Do any additional setup after loading the view.
     }
-
+    
 }
 
 // MARK: - UITableViewDelegate, UITableViewDataSource
