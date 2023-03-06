@@ -35,6 +35,8 @@
 		FAC1654129B5EBDB00F8DB67 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */; };
 		FAC1654229B5EBDB00F8DB67 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */; };
 		FAC1654429B5EEED00F8DB67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1654329B5EEED00F8DB67 /* Constants.swift */; };
+		FAC1654729B5F33400F8DB67 /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC1654529B5F33400F8DB67 /* DataCollectionViewCell.swift */; };
+		FAC1654829B5F33400F8DB67 /* DataCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC1654629B5F33400F8DB67 /* DataCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
 		FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		FAC1654329B5EEED00F8DB67 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FAC1654529B5F33400F8DB67 /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAC1654629B5F33400F8DB67 /* DataCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 			children = (
 				FAC1653F29B5EBDB00F8DB67 /* DataTableViewCell.swift */,
 				FAC1654029B5EBDB00F8DB67 /* DataTableViewCell.xib */,
+				FAC1654529B5F33400F8DB67 /* DataCollectionViewCell.swift */,
+				FAC1654629B5F33400F8DB67 /* DataCollectionViewCell.xib */,
 			);
 			path = "Cell View";
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 				FAC1653029B5E81600F8DB67 /* mushroom_risotto.jpg in Resources */,
 				FAC1654229B5EBDB00F8DB67 /* DataTableViewCell.xib in Resources */,
 				FAC1652829B5E81600F8DB67 /* vegetable_curry.jpg in Resources */,
+				FAC1654829B5F33400F8DB67 /* DataCollectionViewCell.xib in Resources */,
 				FAC1653529B5E81600F8DB67 /* noodle_with_bbq_pork.jpg in Resources */,
 				FAC1652729B5E81600F8DB67 /* thai_shrimp_cake.jpg in Resources */,
 				FAC1652629B5E81600F8DB67 /* egg_benedict.jpg in Resources */,
@@ -268,6 +275,7 @@
 				FAC1653929B5EAC500F8DB67 /* MainViewController.swift in Sources */,
 				FAC1654129B5EBDB00F8DB67 /* DataTableViewCell.swift in Sources */,
 				FAC1653D29B5EB2200F8DB67 /* ColectionViewController.swift in Sources */,
+				FAC1654729B5F33400F8DB67 /* DataCollectionViewCell.swift in Sources */,
 				FAC1654429B5EEED00F8DB67 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

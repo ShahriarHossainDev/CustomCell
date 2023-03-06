@@ -34,7 +34,7 @@ class DataTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    // MARK: Cell Configuration
+    // MARK: - Cell Configuration
     
     func configurateTheCell(_ recipe: Recipe) {
         titleLabel.text = recipe.name

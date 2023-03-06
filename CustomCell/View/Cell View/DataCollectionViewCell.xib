@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionCell" id="gTV-IL-0wX" customClass="DataCollectionViewCell" customModule="CustomCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="148" height="216"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="148" height="216"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a5J-yH-NhP">
+                        <rect key="frame" x="4" y="8" width="140" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry_birds_cake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BMP-X0-wpO">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oF-mH-5Ge">
+                                <rect key="frame" x="0.0" y="183.5" width="140" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9oF-mH-5Ge" firstAttribute="leading" secondItem="a5J-yH-NhP" secondAttribute="leading" id="2LG-g8-U2F"/>
+                            <constraint firstAttribute="trailing" secondItem="BMP-X0-wpO" secondAttribute="trailing" id="4Ke-1W-SaP"/>
+                            <constraint firstAttribute="bottom" secondItem="9oF-mH-5Ge" secondAttribute="bottom" id="Ac9-mG-r9n"/>
+                            <constraint firstItem="BMP-X0-wpO" firstAttribute="top" secondItem="a5J-yH-NhP" secondAttribute="top" id="AxX-LV-rxb"/>
+                            <constraint firstAttribute="width" constant="140" id="F8W-BJ-kuv"/>
+                            <constraint firstItem="BMP-X0-wpO" firstAttribute="leading" secondItem="a5J-yH-NhP" secondAttribute="leading" id="IVV-oS-hEM"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="Ztg-9X-LbG"/>
+                            <constraint firstAttribute="trailing" secondItem="9oF-mH-5Ge" secondAttribute="trailing" id="pDe-9d-MqZ"/>
+                            <constraint firstAttribute="bottom" secondItem="BMP-X0-wpO" secondAttribute="bottom" id="pfo-FF-d5q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="a5J-yH-NhP" secondAttribute="trailing" constant="4" id="2ez-WY-Ueg"/>
+                <constraint firstAttribute="bottom" secondItem="a5J-yH-NhP" secondAttribute="bottom" constant="8" id="PTf-6T-WEP"/>
+                <constraint firstItem="a5J-yH-NhP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="oCM-XP-ogp"/>
+                <constraint firstItem="a5J-yH-NhP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="puA-ml-cUD"/>
+            </constraints>
+            <size key="customSize" width="245" height="246"/>
+            <connections>
+                <outlet property="ConView" destination="a5J-yH-NhP" id="Aqv-4O-5pA"/>
+                <outlet property="nameLabel" destination="9oF-mH-5Ge" id="nHt-eR-oCp"/>
+                <outlet property="picImageView" destination="BMP-X0-wpO" id="Pgj-TY-LTz"/>
+            </connections>
+            <point key="canvasLocation" x="278.98550724637681" y="164.39732142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="angry_birds_cake.jpg" width="141" height="141"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

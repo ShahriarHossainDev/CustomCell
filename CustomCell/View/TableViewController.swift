@@ -21,7 +21,7 @@ class TableViewController: UIViewController {
         dataTableView.dataSource = self
         dataTableView.separatorStyle = .none
 
-        dataTableView.register(UINib(nibName: "DataTableViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifier)
+        self.dataTableView.register(UINib(nibName: "DataTableViewCell", bundle: nil), forCellReuseIdentifier: cellIdentifier)
         // Do any additional setup after loading the view.
     }
 
